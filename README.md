@@ -1,7 +1,7 @@
 # Microservicio de Descripción de Imágenes (Línea A)
 
 ## Descripción
-Este proyecto es un microservicio diseñado para recibir imágenes presentes en contenidos educativos y generar de forma automática descripciones textuales (alt-text)[cite: 1]. Su propósito es integrarse mediante una API REST a una arquitectura híbrida de remediación de accesibilidad gestionada por un orquestador de inteligencia artificial[cite: 1].
+Este proyecto es un microservicio diseñado para recibir imágenes presentes en contenidos educativos y generar de forma automática descripciones textuales (alt-text). Su propósito es integrarse mediante una API REST a una arquitectura híbrida de remediación de accesibilidad gestionada por un orquestador de inteligencia artificial.
 
 ## Requisitos Previos
 * Python 3.x
