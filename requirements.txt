@@ -1,2 +1,12 @@
+# Framework Web y Servidor ASGI
 fastapi==0.141.1
 uvicorn==0.46.0
+
+# Validacion de Datos y Esquemas JSON
+pydantic>=2.6.0
+
+#Procesamiento de Imagenes
+Pillow>=10.2.0
+
+#Soporte para recepción de archivos en FastAPI
+python-multipart>=0.0.9
