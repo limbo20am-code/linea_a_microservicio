@@ -1,0 +1,73 @@
+{
+  "imagen_relativa": "tests/images/diagrama_flujo.png",
+  "ground_truth": {
+    "tipo_imagen": "diagrama_flujo",
+    "confianza_clasificacion": 0.97,
+    "elementos_clave": {
+      "titulo": "Diagrama de flujo (Start a Stop)",
+      "eje_x": {
+        "nombre": "",
+        "etiquetas": [],
+        "rango": []
+      },
+      "eje_y": {
+        "nombre": "",
+        "etiquetas": [],
+        "rango": []
+      },
+      "datos": [],
+      "pasos": [
+        {
+          "id": 1,
+          "tipo": "inicio",
+          "texto": "Start",
+          "si": null,
+          "no": null
+        },
+        {
+          "id": 2,
+          "tipo": "proceso",
+          "texto": "Input num1",
+          "si": null,
+          "no": null
+        },
+        {
+          "id": 3,
+          "tipo": "proceso",
+          "texto": "Input num2",
+          "si": null,
+          "no": null
+        },
+        {
+          "id": 4,
+          "tipo": "decision",
+          "texto": "num1 > num2",
+          "si": "Display num1",
+          "no": "Display num2"
+        },
+        {
+          "id": 5,
+          "tipo": "proceso",
+          "texto": "Display num2",
+          "si": null,
+          "no": null
+        },
+        {
+          "id": 6,
+          "tipo": "proceso",
+          "texto": "Display num1",
+          "si": null,
+          "no": null
+        },
+        {
+          "id": 7,
+          "tipo": "fin",
+          "texto": "Stop",
+          "si": null,
+          "no": null
+        }
+      ]
+    },
+    "descripcion_accesible": "Diagrama de flujo compuesto por 7 etapas: inicia con inicio 'Start'; seguido de proceso 'Input num1'; seguido de proceso 'Input num2'; seguido de decisión 'num1 > num2' (si se cumple: 'Display num1', en caso contrario: 'Display num2'); seguido de proceso 'Display num2'; seguido de proceso 'Display num1'; seguido de fin 'Stop'."
+  }
+}
